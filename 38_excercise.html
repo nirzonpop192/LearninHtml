@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Registration</h1>
+    <form >
+
+        <div >
+
+          <label>
+            First Name:
+            <input type="text" name="first_name" placeholder="First Name" required>
+          </label>
+
+          <label>
+            Last Name:
+            <input type="text" name="last_name" placeholder="Last Name" required>
+          </label>
+        </div>
+
+
+      <br/>
+      <div>
+          <label for="male">Male</label>
+          <input id="male" type="radio" name="gender" value="male">
+
+          <label for="female">Female</label>
+          <input id="female" type="radio" name="gender" value="female">
+
+          <label for="other">Other</label>
+          <input id="other" type="radio" name="gender" value="other">
+      </div>
+      <br/>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="your email" required>
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" required placeholder="Password" minlength="8" maxlenght="10">
+      </div>
+
+      <div >
+
+        <label>
+          Birthday:
+
+          <select  name="month">
+              <option value="null">Month</option>
+              <option value="01">January</option>
+              <option value="02">February</option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+          </select>
+
+        </label>
+
+      </div>
+
+<input type="submit" >
+    </form>
+  </body>
+</html>
